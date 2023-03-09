@@ -10,11 +10,16 @@ const Header = () => {
       <div className="container header_container">
         <h1 className='my-name'>Janice <br/> <span className='last-name'>Rodriguez</span></h1>
        
-      <div>
-        <h5 className="text-light">Front-end Developer / Ux Designer</h5>
-      </div>
-
+      <div className='description'>
+        <h3 className='initial-name'>Janice<span className='color-dash'>/</span>R.</h3>
+        <h5 className="text-light">/This is me </h5>
+        <h3>Front-End Developer - UX Designer <br/> passionately learning, growing <br/> & experiencing.</h3>
+        <p className='text-light'>Lorem ipsum dolor sit, amet consectetur <br/>adipisicing elit. Expedita iusto maxime <br/>provident impedit! 
+          Non tempora excepturi <br/>deleniti quos repudiandae, in blanditiis <br/>commodi accusantium nisi iste quaerat 
+          <br/>aliquid cum ullam eligendi?
+        </p>
         <CTA />
+      </div>
         <HeaderSocials />
 
       <div className="me">
@@ -26,6 +31,7 @@ const Header = () => {
     </header>
   )
 }
+
         
     
 

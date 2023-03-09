@@ -10,11 +10,11 @@
 
 :root {
   --color-bg: #222a36;
-  --color-bg-variant: #2c2c6c;
+  --color-bg-variant: #676cdb;
   --color-primary: #3aafc9;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: #686e75;
 
   --container-width-lg: 78%;
   --container-width-md: 86%;
@@ -54,6 +54,9 @@ h1 {
   font-size: 4.5rem;
 }
 
+.text-light {
+  color: var(--color-light);
+}
 
 a {
   color: var(--color-primary);
