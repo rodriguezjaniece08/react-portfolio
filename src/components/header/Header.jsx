@@ -7,21 +7,24 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h1>Janice <br/> Rodriguez</h1>
-      </div>
+        <h1 className='my-name'>Janice <br/> <span className='last-name'>Rodriguez</span></h1>
+       
       <div>
         <h5 className="text-light">Front-end Developer / Ux Designer</h5>
       </div>
+
         <CTA />
         <HeaderSocials />
+
       <div className="me">
         <img src='' alt=''/>
       </div>
+
       <a href='#contact' className='scroll_down'>Scroll Down</a>
+      </div>
     </header>
   )
 }
-       
         
     
 
