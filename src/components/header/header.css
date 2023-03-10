@@ -12,7 +12,7 @@ header {
 
 .description {
     position: absolute;
-    right: -4rem;
+    right: -5rem;
     width: 28rem;
     text-align: left;
     padding-top: 1rem;
@@ -79,8 +79,8 @@ header {
 /* img */
 
 .me {
-    /* width: 38rem;
-    height: 30rem; */
+    width: 28rem;
+    height: 25rem;
     position: absolute;
     left: 50%;
     bottom: 15rem;
@@ -88,7 +88,14 @@ header {
     border-radius: 18rem 18rem 0 0;
     overflow: hidden;
     background: linear-gradient(var(--color-primary), transparent);
-    z-index: 0;
+    /* z-index: 0; */
+}
+
+img {
+  
+    padding-top: 6rem;
+    margin: 0 auto;
+    width: 28rem;
 }
 
 /* scroll */
@@ -97,6 +104,37 @@ header {
     position: absolute;
     right: -2rem;
     top: 25rem;
+    font-weight: 300;
     transform: rotate(90deg);
 }
+   
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
     
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+        
+    }
+    .header_socials, .scroll_down, .my-name {
+        display: none;
+    }
+
+    .me {
+        width: 20rem;
+        height: 15rem;
+        bottom: 12rem;
+        margin: 0 auto;
+    }
+      
+
+    img {
+        padding-top: 2rem;
+        width: 18rem;
+        margin: 0 auto;
+    }
+    
+}
