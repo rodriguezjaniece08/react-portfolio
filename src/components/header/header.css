@@ -2,6 +2,7 @@ header {
     height: 100vh;
     padding: 2rem 0;
     overflow: hidden;
+
 }
 
 .header_container {
@@ -35,7 +36,7 @@ header {
 .my-name {
     position: absolute;
     left: 5rem;
-    bottom: 23rem;
+    bottom: 21rem;
     z-index: 10;
 }
 

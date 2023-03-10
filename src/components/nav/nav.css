@@ -1,0 +1,26 @@
+/* nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+} */
+
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    min-width: 15rem;
+    padding: 0.7rem 1.7rem;
+    display: flex;
+    gap:2.5rem;
+    justify-content: center;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    position: fixed; 
+    transform: translateX(-50%); 
+    left: 50%;
+    bottom: 3rem;
+    z-index: 2;
+}
+    

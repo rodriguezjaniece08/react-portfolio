@@ -6,7 +6,7 @@ import imgplaceholder from '../../assets/imgplaceholder.png'
 
 const Header = () => {
   return (
-    <header>
+    <header id='home'>
       <div className="container header_container">
         <h1 className='my-name'>Janice <br/> <span className='last-name'>Rodriguez</span></h1>
        

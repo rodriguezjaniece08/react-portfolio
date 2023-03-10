@@ -1,9 +1,11 @@
 import React from 'react'
-import './portfolio.css'
+import './projects.css'
 
 const Portfolio = () => {
   return (
-    <div>Portfolio</div>
+    <section id='projects'>
+      projects
+    </section>
   )
 }
 
