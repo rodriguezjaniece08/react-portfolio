@@ -1,9 +1,16 @@
 import React from 'react'
-import './nav.css'
+import {AiOutlineHome} from 'react-icons/ai'
+import {FaLaptopCode} from 'react-icons/fa'
+import {BiMessageSquareDetail, BiBook} from 'react-icons/bi'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <nav>
+      <a href='#home'><AiOutlineHome/></a>
+      <a href='#experience'><BiBook/></a>
+      <a href='#projects'><FaLaptopCode/></a>
+      <a href='#contact'><BiMessageSquareDetail/></a>
+    </nav>
   )
 }
 
