@@ -1,16 +1,16 @@
 import React from 'react'
 
+
 const HeaderNav = () => {
+
   return (
-    <div className='header_nav'>
-        <nav>
-            <ul>
-                <li>Experience</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </div>
+  <nav className ='header-nav'>
+    <a href='#home' >Home</a>
+    <a href='#experience' >Experience</a>
+    <a href='#projects'>Projects</a>
+    <a href='#contact' >Contacts</a>
+  </nav>
+    
   )
 }
 

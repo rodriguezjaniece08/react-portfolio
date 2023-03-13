@@ -3,11 +3,13 @@ import './header.css'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import imgplaceholder from '../../assets/imgplaceholder.png'
+import HeaderNav from './HeaderNav'
 
 const Header = () => {
   return (
     <header id='home'>
       <div className="container header_container">
+        <HeaderNav />
         <h1 className='my-name'>Janice <br/> <span className='last-name'>Rodriguez</span></h1>
        
       <div className='description'>
