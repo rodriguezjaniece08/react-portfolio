@@ -16,6 +16,9 @@ header {
     text-transform: uppercase;
 }  
 
+.color-dash {
+    color: var(--color-primary)
+}
 .description {
     position: absolute;
     right: -5rem;
@@ -24,9 +27,6 @@ header {
     padding-top: 1rem;
     }
 
-.color-dash {
-    color: var(--color-primary)
-}
 
 .description > h5, h3 {
     padding-bottom: 1.5rem;
@@ -126,7 +126,7 @@ img {
     }
 
     .container {
-        width: var(--container-width-sm)
+        width: var(--container-width-sm);
     }
 
     .description {
