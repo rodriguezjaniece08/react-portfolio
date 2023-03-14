@@ -1,32 +1,33 @@
 import React from 'react'
-import {AiOutlineHtml5} from 'react-icons/ai'
-import {FaCss3Alt} from 'react-icons/fa'
-import {TbBrandJavascript, TbBrandBootstrap} from 'react-icons/tb'
+import {TbBrandHtml5,TbBrandCss3, TbBrandJavascript, TbBrandBootstrap} from 'react-icons/tb'
 import {FaReact} from 'react-icons/fa'
 
 const ExperienceSkills = () => {
   return (
     <div className='experience_skills'>
-        <ul className="skills">
+        <ul className="skills_container">
             <li>
-                <AiOutlineHtml5 />
-                HTML
+                <a><TbBrandHtml5 size='3.5rem'/> </a>
+                <div>HTML</div>
             </li>
             <li>
-                <FaCss3Alt />
-                CSS
+                <a><TbBrandCss3 size='3.5rem'/> </a>   
+                <div>CSS</div>
             </li>
+             
             <li>
-                <TbBrandJavascript />
-                JavaScript
+                <a><TbBrandJavascript size='3.5rem' /></a>  
+                <div>JavaScript</div>
             </li>
+               
             <li>
-                <FaReact />
-                React
+                <a><FaReact size='3.5rem'/></a>  
+                <div>React</div>
             </li>
+                
             <li>
-                <TbBrandBootstrap />
-                BootStrap
+                <a><TbBrandBootstrap size='3.5rem' /></a> 
+                <div>BootStrap</div>
             </li>
         </ul>
     </div>
@@ -34,6 +35,7 @@ const ExperienceSkills = () => {
 }
 
 export default ExperienceSkills
+                
         
         
         

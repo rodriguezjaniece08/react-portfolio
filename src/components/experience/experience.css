@@ -16,9 +16,25 @@
 .grid-item > h1 {
     font-family:  'Yellowtail', 'cursive';
     color: var(--color-grey);
-    transform: rotate(-6deg);
+    transform: rotate(-8deg);
     font-size: 7em;
     text-align: center;
     letter-spacing: .3rem;
     width: fit-content;
+}
+
+.experience_skills {
+    position: relative;
+    left: .5rem;
+    top: -3.5rem;
+}
+
+.skills_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.skills_container li {
+    padding: 2rem;
+    text-align: center;
 }
