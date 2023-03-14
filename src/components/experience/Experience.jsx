@@ -1,11 +1,15 @@
 import React from 'react'
 import './experience.css'
+import ExperienceSkills from './ExperienceSkills'
+
 
 const Experience = () => {
   return (
     <section id='experience'>
       <div className="grid-item item1">
         <h1>Experience</h1>
+        <ExperienceSkills />
+      
       </div>
       <div className="grid-item item2">
         <h5>/Problem solver</h5>
@@ -15,7 +19,7 @@ const Experience = () => {
           praesentium aliquam deserunt, iste numquam 
           animi culpa, nisi 
           officiis repellendus? 
-          Incidunt facere praesentium dignissimos id 
+          Incidunt facere praesentium dignissis id 
           dicta provident 
           laboriosam amet.</p>
       </div>

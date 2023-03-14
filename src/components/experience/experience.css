@@ -3,18 +3,19 @@
 #experience {
     background: var(--color-bg-variant);
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 2fr 2fr;
+    padding: 0 5rem;
 }
 
 .grid-item {
-
     margin: 0 auto;
-    padding: 3rem 6rem 0 0;
+    padding: 3rem 3rem 0 0;
+
 }
 
 .grid-item > h1 {
-    font-family:  'Yellowtail', cursive;
-    color: var(--color-light);
+    font-family:  'Yellowtail', 'cursive';
+    color: var(--color-grey);
     transform: rotate(-6deg);
     font-size: 7em;
     text-align: center;
