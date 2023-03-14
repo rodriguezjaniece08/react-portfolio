@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+#experience {
+    background: var(--color-bg-variant);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+
+    margin: 0 auto;
+    padding: 3rem 6rem 0 0;
+}
+
+.grid-item > h1 {
+    font-family:  'Yellowtail', cursive;
+    color: var(--color-light);
+    transform: rotate(-6deg);
+    font-size: 7em;
+    text-align: center;
+    letter-spacing: .3rem;
+    width: fit-content;
+}
