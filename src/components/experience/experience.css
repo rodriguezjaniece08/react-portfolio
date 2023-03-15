@@ -13,7 +13,11 @@
 
 }
 
-.grid-item > h1 {
+.item1 {
+    padding-top: 5rem;
+}
+
+.item1 > h1 {
     font-family:  'Yellowtail', 'cursive';
     color: var(--color-grey);
     transform: rotate(-8deg);
@@ -41,4 +45,9 @@
 
 .ux-skills {
     color: var(--color-primary-variant);
+}
+
+.item2 > h5 {
+    padding: 2rem 0;
+    text-transform: capitalize;
 }
