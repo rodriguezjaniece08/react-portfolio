@@ -9,10 +9,10 @@ const Experience = () => {
       <div className="grid-item item1">
         <h1>Experience</h1>
         <ExperienceSkills />
-      
       </div>
+      
       <div className="grid-item item2">
-        <h5>/Problem solver</h5>
+        <h5 className='text-light'>/Problem solver</h5>
         <p>Lorem ipsum dolor, sit amet consectetur 
           adipisicing elit. 
           Saepe magnam quidem 
