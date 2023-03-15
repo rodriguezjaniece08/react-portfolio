@@ -13,15 +13,22 @@ const Experience = () => {
       
       <div className="grid-item item2">
         <h5 className='text-light'>/Problem solver</h5>
-        <p>Lorem ipsum dolor, sit amet consectetur 
-          adipisicing elit. 
-          Saepe magnam quidem 
-          praesentium aliquam deserunt, iste numquam 
-          animi culpa, nisi 
+        <p className='exp-1'>
+          Lorem ipsum dolor, sit amet consectetur 
+          Lorem ipsum dolor, sit amet consectetur 
+          adipisicing elit. Saepe magnam quidem 
+          iste numquam animi culpa, nisi 
+          praesentium aliquam deserunt,</p>
+          
+        <p className='exp-2'> 
           officiis repellendus? 
           Incidunt facere praesentium dignissis id 
-          dicta provident 
-          laboriosam amet.</p>
+          Incidunt facere praesentium dignissis id 
+          Incidunt facere praesentium dignissis id 
+          Incidunt facere praesentium dignissis id 
+          Incidunt facere praesentium dignissis id 
+          officiis repellendus? 
+          dicta provident laboriosam amet.</p>
       </div>
     </section>
   )
