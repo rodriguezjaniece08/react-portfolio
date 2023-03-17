@@ -1,5 +1,15 @@
  @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
-section > h1 {
+ .projects-header {
+    width: 90%;
+    height: 95%;
+    margin: 0 auto;
+ }
+.projects-header > h1 {
     font-family: 'Yellowtail', 'cursive';
+    transform: rotate(-10deg);
+    font-size: 7rem;
+    color: var(--color-grey);
+    width: fit-content;
+    margin: 0 auto;
 }
