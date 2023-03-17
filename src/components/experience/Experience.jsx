@@ -17,10 +17,13 @@ const Experience = () => {
           Lorem ipsum dolor, sit amet consectetur 
           Lorem ipsum dolor, sit amet consectetur 
           adipisicing elit. Saepe magnam quidem 
+          adipisicing elit. Saepe magnam quidem 
+          adipisicing elit. Saepe magnam quidem 
+          adipisicing elit. Saepe magnam quidem 
           iste numquam animi culpa, nisi 
           praesentium aliquam deserunt,</p>
           
-        <p className='exp-2'> 
+        <p className='exp-2 text-light'> 
           officiis repellendus? 
           Incidunt facere praesentium dignissis id 
           Incidunt facere praesentium dignissis id 
@@ -28,7 +31,10 @@ const Experience = () => {
           Incidunt facere praesentium dignissis id 
           Incidunt facere praesentium dignissis id 
           officiis repellendus? 
-          dicta provident laboriosam amet.</p>
+          officiis repellendus? 
+          dicta provident laboriosam amet.
+          dicta provident laboriosam amet.
+          </p>
       </div>
     </section>
   )
