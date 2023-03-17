@@ -2,14 +2,26 @@
 
  .projects-header {
     width: 90%;
-    height: 95%;
+    height: 98%;
     margin: 0 auto;
  }
 .projects-header > h1 {
     font-family: 'Yellowtail', 'cursive';
-    transform: rotate(-10deg);
+    transform: rotate(-6deg);
     font-size: 7rem;
     color: var(--color-grey);
     width: fit-content;
     margin: 0 auto;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.project-link {
+    
+    width: 18rem;
+    height: 20rem;
+    background: var(--color-bg-variant);
 }
