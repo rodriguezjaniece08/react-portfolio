@@ -17,9 +17,6 @@ const Experience = () => {
           Lorem ipsum dolor, sit amet consectetur 
           Lorem ipsum dolor, sit amet consectetur 
           adipisicing elit. Saepe magnam quidem 
-          adipisicing elit. Saepe magnam quidem 
-          adipisicing elit. Saepe magnam quidem 
-          adipisicing elit. Saepe magnam quidem 
           iste numquam animi culpa, nisi 
           praesentium aliquam deserunt,</p>
           
