@@ -4,7 +4,7 @@ import './projects.css'
 const Portfolio = () => {
   return (
     <section id='projects'>
-      projects
+      <h1>Design & Code</h1>
     </section>
   )
 }
