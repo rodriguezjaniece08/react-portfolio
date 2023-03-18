@@ -1,5 +1,6 @@
 import React from 'react'
 import {FiTerminal} from 'react-icons/fi'
+import {TbTable} from 'react-icons/tb'
 
 
 const ProjectLinks = () => {
@@ -10,6 +11,7 @@ const ProjectLinks = () => {
             <h2>Front-End Developer.</h2>
         </div>
         <div className='project-link ux'>
+            <TbTable size='1.9rem'/>
             <h2>UX Designer.</h2>
         </div>
     </div>
