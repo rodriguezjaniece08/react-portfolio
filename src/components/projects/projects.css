@@ -20,8 +20,12 @@
     gap: 1.5rem;
 }
 .project-link {
-    
     width: 29rem;
     height: 10rem;
     background: var(--color-bg-variant);
 }
+
+.project-link:hover {
+    background: var(--color-primary-variant);
+}
+    
