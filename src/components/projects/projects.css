@@ -26,6 +26,11 @@
     text-align: center;
 }
 
+.frontend-icon, .ux-icon {
+    color: var(--color-primary-variant);
+}
+
+
 .project-link:hover {
     background: var(--color-primary-variant);
     color: var(--color-white);
