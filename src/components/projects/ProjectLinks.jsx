@@ -9,10 +9,12 @@ const ProjectLinks = () => {
         <div className='project-link front-end'>
             <FiTerminal size='1.9rem' className='frontend-icon' color=''/>
             <h2>Front-End Developer.</h2>
+            <p></p>
         </div>
         <div className='project-link ux'>
             <TbTable size='1.9rem' className='ux-icon'/>
             <h2>UX Designer.</h2>
+            <p></p>
         </div>
     </div>
   )

@@ -28,7 +28,7 @@
 
 .frontend-icon, .ux-icon {
     color: var(--color-primary-variant);
-    background: white;
+    
 }
 
 .project-link:hover {
