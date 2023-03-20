@@ -6,6 +6,8 @@
     margin: 0 auto;
  }
 .projects-header > h1 {
+    position: relative;
+    top: -2.5rem;
     font-family: 'Yellowtail', 'cursive';
     transform: rotate(-6deg);
     font-size: 7rem;
@@ -30,6 +32,11 @@
     color: var(--color-primary-variant);
     
 }
+
+.frontend-icon:hover, .ux-icon:hover{
+    color: var(--color-white);
+}
+
 
 .project-link:hover {
     background: var(--color-primary-variant);
