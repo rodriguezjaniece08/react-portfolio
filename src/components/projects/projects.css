@@ -22,10 +22,14 @@
     gap: 1.5rem;
 }
 .project-link {
-    width: 29rem;
+    width: 20rem;
     height: 10rem;
     background: var(--color-bg-variant);
     text-align: center;
+}
+
+.project-link > div {
+    padding-top: 1.5rem;
 }
 
 .frontend-icon, .ux-icon {
@@ -33,9 +37,9 @@
     
 }
 
-.frontend-icon:hover, .ux-icon:hover{
+/* .frontend-icon:hover, .ux-icon:hover{
     color: var(--color-white);
-}
+} */
 
 
 .project-link:hover {

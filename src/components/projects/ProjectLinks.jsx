@@ -7,14 +7,18 @@ const ProjectLinks = () => {
   return (
     <div className='projects'>
         <div className='project-link front-end'>
-            <FiTerminal size='1.9rem' className='frontend-icon' hoverColor='white'/>
+          <div>
+            <FiTerminal size='1.9rem'className='frontend-icon'/>
             <h2>Front-End Developer.</h2>
-            <p>10+ projects</p>
+            <p>Projects</p>
+          </div>
         </div>
         <div className='project-link ux'>
+          <div>
             <TbTable size='1.9rem' className='ux-icon'/>
             <h2>UX Designer.</h2>
-            <p>4+ projects</p>
+            <p>Projects</p>
+          </div>
         </div>
     </div>
   )
