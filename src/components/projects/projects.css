@@ -16,14 +16,16 @@
     margin: 0 auto;
 }
 
-.projects {
+.projects, .card-container {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    margin-bottom: 2.5rem;
 }
-.project-link {
+
+.project-link, .project-card {
     width: 20rem;
-    height: 10rem;
+    height: 13rem;
     background: var(--color-bg-variant);
     text-align: center;
 }
@@ -46,4 +48,4 @@
     background: var(--color-primary-variant);
     color: var(--color-white);
 }
-    
+  
