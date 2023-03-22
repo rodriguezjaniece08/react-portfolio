@@ -1,6 +1,7 @@
 import React from 'react'
 import './projects.css'
 import ProjectsLinks from './ProjectLinks'
+import ProjectCardFront from './ProjectCardFront'
 
 const Portfolio = () => {
   return (
@@ -8,6 +9,7 @@ const Portfolio = () => {
      <div className='projects-header'>
         <h1>Design & Code</h1>
         <ProjectsLinks />
+        <ProjectCardFront/>
         <div>
           
         </div>
