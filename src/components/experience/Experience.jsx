@@ -2,7 +2,7 @@ import React from 'react'
 import './experience.css'
 import ExperienceSkills from './ExperienceSkills'
 
-
+//experiece component
 const Experience = () => {
   return (
     <section id='experience'>
