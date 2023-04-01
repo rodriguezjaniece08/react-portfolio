@@ -1,5 +1,7 @@
 import React from 'react'
 
+
+//project card component
 const ProjectCardFront = () => {
   return (
     <div className='card-container'>
