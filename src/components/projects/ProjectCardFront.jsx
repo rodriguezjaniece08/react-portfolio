@@ -6,14 +6,14 @@ const ProjectCardFront = () => {
   return (
     <div className='card-container'>
       <div className = 'project-card'> 
-        Project 1 
+       project 1
       </div>
-      <div className = 'project-card'>
+      {/* <div className = 'project-card'>
         project 2 
       </div>
       <div className = 'project-card'>
         project 3
-      </div>
+      </div> */}
     </div>
   )
 }
