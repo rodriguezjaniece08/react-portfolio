@@ -1,19 +1,23 @@
-import React from 'react'
+import React from 'react';
+
 
 
 //project card component
 const ProjectCardFront = () => {
-  return (
-    <div className='card-container'>
-      <div className = 'project-card'> 
-       project 1
+  return(
+    <div className='grid2x2'>
+      <div className='project-box box1'>
+
       </div>
-      {/* <div className = 'project-card'>
-        project 2 
+      <div className='project-box box2'>
+
       </div>
-      <div className = 'project-card'>
-        project 3
-      </div> */}
+      <div className='project-box box3'>
+
+      </div>
+      <div className='project-box box4'>
+        
+      </div>
     </div>
   )
 }
