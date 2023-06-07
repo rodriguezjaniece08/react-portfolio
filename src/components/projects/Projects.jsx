@@ -9,7 +9,7 @@ const Portfolio = () => {
      <div className='projects-header'>
         <h1>Design & Code</h1>
         <ProjectsLinks />
-        
+        <ProjectCardFront/>
 
         
 

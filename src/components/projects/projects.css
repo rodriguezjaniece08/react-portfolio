@@ -19,13 +19,13 @@
 .projects, .card-container {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 4.5rem;
     margin-bottom: 2.5rem;
 }
 
 .project-link, .project-card {
-    width: 20rem;
-    height: 13rem;
+    width: 30rem;
+    height: 10rem;
     background: var(--color-bg-variant);
     text-align: center;
 }
@@ -48,4 +48,31 @@
     background: var(--color-primary-variant);
     color: var(--color-white);
 }
-  
+
+
+/* ProjectCardFront */
+
+.grid2x2 {
+    min-height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 30px);  
+    justify-content: center;
+    flex-direction: column;
+}
+.grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.project-box {
+      background: var(--color-bg-variant);
+      margin: 15px;
+      max-height: 35%;
+  }
