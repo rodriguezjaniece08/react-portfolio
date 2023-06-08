@@ -12,7 +12,7 @@ const ProjectCardFront = () => {
    <CardGroup>
     <Card 
       body
-      className="text-center mx-3"
+      className="text-center m-3"
       style={{
         width: '5rem',
         background: 'var(--color-bg-variant)'
@@ -42,7 +42,7 @@ const ProjectCardFront = () => {
 
     <Card 
       body
-      className="text-center mx-3"
+      className="text-center m-3"
       style={{
         width: '3rem',
         background: 'var(--color-bg-variant)'
@@ -68,11 +68,12 @@ const ProjectCardFront = () => {
           </CardText>
       </CardBody>
     </Card>
-   </CardGroup>
+  </CardGroup>
+
       <CardGroup>
       <Card 
         body
-        className="text-center mx-3"
+        className="text-center m-3"
         style={{
           width: '5rem',
           background: 'var(--color-bg-variant)'
@@ -102,7 +103,7 @@ const ProjectCardFront = () => {
   
       <Card 
         body
-        className="text-center mx-3"
+        className="text-center m-3"
         style={{
           width: '3rem',
           background: 'var(--color-bg-variant)'
@@ -128,6 +129,7 @@ const ProjectCardFront = () => {
             </CardText>
         </CardBody>
       </Card>
+
      </CardGroup>
               </>
    
