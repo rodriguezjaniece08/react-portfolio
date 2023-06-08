@@ -1,5 +1,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
+ #projects {
+    height: 95rem;
+ }
+
  .projects-header {
     width: 90%;
     height: 98%;
