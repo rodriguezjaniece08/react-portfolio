@@ -52,27 +52,3 @@
 
 /* ProjectCardFront */
 
-.grid2x2 {
-    min-height: 70%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.grid2x2 > div {
-    display: flex; 
-    flex-basis: calc(50% - 30px);  
-    justify-content: center;
-    flex-direction: column;
-}
-.grid2x2 > div > div {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.project-box {
-      background: var(--color-bg-variant);
-      margin: 15px;
-      max-height: 35%;
-  }
