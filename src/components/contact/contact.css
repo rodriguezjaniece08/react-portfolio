@@ -1,0 +1,11 @@
+#contact {
+    background: var(--color-bg-variant);
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 4rem 5rem;
+}
+
+
+.connect-arrow{
+    color: var(--color-primary);
+}
