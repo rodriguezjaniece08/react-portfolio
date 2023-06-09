@@ -9,26 +9,26 @@ const ExperienceSkills = () => {
     <div className='experience_skills'>
         <ul className="skills_container">
             <li>
-                <a><TbBrandHtml5 size='4.5rem'/> </a>
+                <span className='development-skills'><TbBrandHtml5 size='4.5rem'/> </span>
                 <div>HTML</div>
             </li>
             <li>
-                <a><TbBrandCss3 size='4.5rem'/> </a>   
+                <span className='development-skills'><TbBrandCss3 size='4.5rem'/> </span>   
                 <div>CSS</div>
             </li>
              
             <li>
-                <a><TbBrandJavascript size='4.5rem' /></a>  
+                <span className='development-skills'><TbBrandJavascript size='4.5rem' /></span>  
                 <div>JavaScript</div>
             </li>
                
             <li>
-                <a><FaReact size='4.5rem'/></a>  
+                <span className='development-skills'><FaReact size='4.5rem'/></span>  
                 <div>React</div>
             </li>
                 
             <li>
-                <a><TbBrandBootstrap size='4.5rem' /></a> 
+                <span className='development-skills'><TbBrandBootstrap size='4.5rem' /></span> 
                 <div>BootStrap</div>
             </li>
         </ul>

@@ -43,6 +43,10 @@
     text-align: center;
 }
 
+.development-skills{
+    color: var(--color-primary);
+}
+
 .ux-skills {
     color: var(--color-primary-variant);
 }
