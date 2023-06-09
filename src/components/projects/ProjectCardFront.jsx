@@ -1,6 +1,7 @@
 import React from 'react';
 import projectImg1 from '../../assets/projectImg1.png';
-import projectImg2 from '../../assets/projectImg2.png'
+import projectImg2 from '../../assets/projectImg2.png';
+import projectImg3 from '../../assets/projectImg3.png';
 import { CardBody, CardGroup, CardImg, CardText, CardTitle, Card } from 'reactstrap';
 
 
@@ -11,6 +12,9 @@ const ProjectCardFront = () => {
   return(
     <>
    <CardGroup> 
+
+    {/* Project card 1 */}
+
     <Card 
       body
       className="text-center m-3 pt-0"
@@ -39,6 +43,8 @@ const ProjectCardFront = () => {
         <p><a href="https://rodriguezjaniece08.github.io/Final_Project/" className='btn my-4 card-btn' target='blank'>Check it Out</a></p>
       </CardBody>
     </Card>
+
+        {/* Project card 2 */}
 
     <Card 
       body
@@ -72,6 +78,9 @@ const ProjectCardFront = () => {
   </CardGroup>
 
   <CardGroup>
+
+    {/* project card 3 */}
+
       <Card 
         body
         className="text-center m-3 pt-0"
@@ -81,7 +90,7 @@ const ProjectCardFront = () => {
         }}> 
         <CardImg
           alt="Image of Taskit App"
-          src={projectImg1}
+          src={projectImg3}
           style={{
             height:'23rem'
           }}
@@ -90,18 +99,20 @@ const ProjectCardFront = () => {
         />
         <CardBody>
           <CardTitle tag='h4'>
-            TaskIT
+            Survey Form
           </CardTitle>
           <CardText
             className='mb-2'
             tag='h6'
             >
-              A task Management Application intended for individual or group use for managing any task built with love as a team.
+              A simple static survey form built with only CSS & HTML.
             </CardText>
           <p><a href="https://rodriguezjaniece08.github.io/Final_Project/" className='btn' target='blank'>Check it Out</a></p>
         </CardBody>
       </Card>
-  
+          
+          {/* project card 4 */}
+
       <Card 
         body
         className="text-center m-3 pt-0"
