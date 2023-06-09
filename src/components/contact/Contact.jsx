@@ -7,8 +7,12 @@ const Contact = () => {
   return (
     <section id='contact'>
       <div className='contact-grid grid1'>
-      <h1>Let's <span className='connect-arrow'><FaArrowRight/></span><br/> Connect.</h1>
+        <h1>Let's <span className='connect-arrow'><FaArrowRight/></span><br/> Connect.</h1>
+        <div>
+          <p>Imaginative front-end UX developer pursuing to create  </p>
+        </div>
       </div>
+      
 
       <div className='contact-grid grid2'>
         <Form/>

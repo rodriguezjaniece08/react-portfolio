@@ -2,7 +2,9 @@ import React, { useRef } from 'react';
 import {FaArrowRight} from 'react-icons/fa'
 //import emailjs from '@emailjs/browser';
 
-/
+ const Form = () => {
+    const form = useRef();
+
 //   const sendEmail = (e) => {
 //     e.preventDefault();
 
@@ -14,10 +16,9 @@ import {FaArrowRight} from 'react-icons/fa'
 //       });
 //   };
   return (
-    <form ref={form}>
-    <label>Name
+    <form ref={form} onSubmit={sendEmail}>
+    <label>Name</label>
       <input id='name' type='text' required />
-    </label>
     
     <label for='email id='email-label>Email
       <input type="email" name="email" required />
@@ -26,7 +27,7 @@ import {FaArrowRight} from 'react-icons/fa'
     <textarea name="message" id='message' rows='10' cols='50' />
     </label>
 
-   <button>Send <span className='submit-arrow'><FaArrowRight/></span></button>
+   <button className='btn'>Send <span className='submit-arrow'><FaArrowRight/></span></button>
   </form>
   )
 }
