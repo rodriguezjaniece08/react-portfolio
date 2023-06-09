@@ -2,6 +2,7 @@ import React from 'react';
 import projectImg1 from '../../assets/projectImg1.png';
 import projectImg2 from '../../assets/projectImg2.png';
 import projectImg3 from '../../assets/projectImg3.png';
+import projectImg4 from '../../assets/projectImg4.png';
 import { CardBody, CardGroup, CardImg, CardText, CardTitle, Card } from 'reactstrap';
 
 
@@ -107,7 +108,7 @@ const ProjectCardFront = () => {
             >
               A simple static survey form built with only CSS & HTML.
             </CardText>
-          <p><a href="https://rodriguezjaniece08.github.io/Final_Project/" className='btn' target='blank'>Check it Out</a></p>
+          <p><a href="https://rodriguezjaniece08.github.io/Final_Project/" className='btn my-4' target='blank'>Check it Out</a></p>
         </CardBody>
       </Card>
           
@@ -122,7 +123,7 @@ const ProjectCardFront = () => {
         }}> 
         <CardImg
           alt="Image of Taskit App"
-          src={projectImg1}
+          src={projectImg4}
           style={{
             height:'23rem'
           }}
@@ -131,15 +132,15 @@ const ProjectCardFront = () => {
           />
         <CardBody>
           <CardTitle tag='h4'>
-            TaskIT
+            Jay's Pizza
           </CardTitle>
           <CardText
             className='mb-2'
             tag='h6'
             >
-              A task Management Application intended for individual or group use for managing any task.
+              A local restaurant website derived from UX principles. A focus on animation, image carousel, and a ordering form.
             </CardText>
-            <p><a href="https://rodriguezjaniece08.github.io/Final_Project/" className='btn my-4 card-btn' target='blank'>Check it Out</a></p>
+            <p><a href="#" className='btn my-4 card-btn' target='blank'>Check it Out</a></p>
         </CardBody>
       </Card>
 
