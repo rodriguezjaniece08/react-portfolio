@@ -9,3 +9,27 @@
 .connect-arrow{
     color: var(--color-primary);
 }
+
+.contact-grid {
+    margin: 0 auto;
+    padding: 3rem 3rem 0 0;
+}
+
+label {
+    display: block;
+}
+
+input {
+    border: none;
+    background: transparent;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+
+.submit-arrow{
+    color: var(--color-primary);
+}
