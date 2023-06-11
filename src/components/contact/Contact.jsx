@@ -12,6 +12,7 @@ const Contact = () => {
           <p className='mt-5'>Imaginative front-end UX developer pursuing to create beautiful code with beautiful design. Actively pursing to better my craft, 
             have any advice or just want to say hi? I would love to hear from you! </p>
         </div>
+          <h1 className='inq'>Inquiries</h1>
         <div className='circle'>
         <p className='open-to'>Open for <br/>new Projects.</p>
         </div>
