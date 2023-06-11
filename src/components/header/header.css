@@ -43,7 +43,7 @@ header {
 .my-name {
     position: absolute;
     left: 5rem;
-    bottom: 21rem;
+    bottom: 15rem;
     z-index: 10;
 }
 
@@ -98,7 +98,7 @@ header {
     height: 25rem;
     position: absolute;
     left: 50%;
-    bottom: 15rem;
+    bottom: 10rem;
     transform: translateX(-50%);
     border-radius: 18rem 18rem 0 0;
     overflow: hidden;
