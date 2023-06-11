@@ -1,0 +1,24 @@
+#footer {
+    height: 20rem;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.footer_socials{
+    height: 10px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.copyright {
+    width: 15%;
+    margin: 3rem auto;
+}
+
+.tags {
+    transition: transform 2s ease-in-out
+}
+
+.tags:hover {
+    transform: translateY(-2.1rem);
+}
