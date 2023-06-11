@@ -13,7 +13,7 @@ const Contact = () => {
             have any advice or just want to say hi? I would love to hear from you! </p>
         </div>
         <div className='circle'>
-        <p className='justify-content'>Open for new Projects</p>
+        <p className='open-to'>Open for <br/>new Projects.</p>
         </div>
       </div>
       

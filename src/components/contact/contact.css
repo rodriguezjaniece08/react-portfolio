@@ -55,9 +55,18 @@ input, textarea {
 }
 
 .circle{
-    background: yellow;
+    display: flex;
+    justify-content: center;
+    background: var(--color-primary-variant);
     height: 150px;
     width: 150px;
+    padding-top: 3.2rem;
+    padding-left: .5rem;
     border-radius: 50%;
+    transform: rotate(11deg);
+    margin: 0 auto;
+    font-weight: bold ;
+    line-height: 1.2rem;
     
 }
+
