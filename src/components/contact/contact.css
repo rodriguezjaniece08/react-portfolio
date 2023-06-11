@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
 #contact {
     background: var(--color-bg-variant);
     display: grid;
@@ -54,17 +56,28 @@ input, textarea {
     animation: buttons .5s linear;
 }
 
+.inq {
+    font-family: 'Yellowtail', 'cursive';
+    color: var(--color-grey);
+    transform: rotate(-8deg);
+    font-size: 8em;
+    /* margin-top: 1rem; */
+    /* text-align: center; */
+    letter-spacing: .3rem;
+}
+
 .circle{
-    display: flex;
-    justify-content: center;
+    position: relative;
+    left: 20rem;
+    bottom: 4.5rem;
     background: var(--color-primary-variant);
     height: 150px;
     width: 150px;
     padding-top: 3.2rem;
-    padding-left: .5rem;
+    padding-left: 1.5rem;
     border-radius: 50%;
     transform: rotate(11deg);
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-weight: bold ;
     line-height: 1.2rem;
     
