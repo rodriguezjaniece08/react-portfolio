@@ -9,7 +9,11 @@ const Contact = () => {
       <div className='contact-grid grid1'>
         <h1>Let's <span className='connect-arrow'><FaArrowRight/></span><br/> Connect.</h1>
         <div>
-          <p>Imaginative front-end UX developer pursuing to create  </p>
+          <p className='mt-5'>Imaginative front-end UX developer pursuing to create beautiful code with beautiful design. Actively pursing to better my craft, 
+            have any advice or just want to say hi? I would love to hear from you! </p>
+        </div>
+        <div className='circle'>
+        <p className='justify-content'>Open for new Projects</p>
         </div>
       </div>
       
