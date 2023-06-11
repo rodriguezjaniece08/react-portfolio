@@ -39,7 +39,7 @@ input, textarea {
 
 #message {
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
     border: none;
     background: var(--color-bg);
 }
@@ -49,9 +49,9 @@ input, textarea {
 }
 
 .success {
-    position: absolute;
-    display: none;
-    animation: buttons .3s linear;
+    /* position: absolute; */
+    /* display: none; */
+    animation: buttons .5s linear;
 }
 
 @keyframes buttons {

@@ -7,7 +7,7 @@ import emailjs from '@emailjs/browser';
 
  const Form = () => {
   const form = useRef();
-  const [success, setSuccess] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -19,9 +19,12 @@ import emailjs from '@emailjs/browser';
       }, (error) => {
           console.log(error.text);
       });
+      setSubmitted(true);
       //resets the form after submission
       e.target.reset();
   };
+
+ 
 
   
 
@@ -38,8 +41,8 @@ import emailjs from '@emailjs/browser';
     <textarea name="message" id='message' rows='10' cols='50' />
     </label>
 
-   <button className='btn' onClick={() => {setSuccess(!success)}}>Send <span className='submit-arrow'><FaArrowRight/></span></button>
-   <div className='success'>Your Message Successfully Sent!</div>
+   {submitted ? <div className='success'>Your Message Successfully Sent!</div> : null }
+   <button className='btn mt-2'>Send <span className='submit-arrow'><FaArrowRight/></span></button>
   </form>
   )
 }
