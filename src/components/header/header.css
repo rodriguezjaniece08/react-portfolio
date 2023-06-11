@@ -83,6 +83,14 @@ header {
     background: var(--color-primary);
 }
 
+.header-tags{
+    transition: transform 1s ease-in-out;
+}
+
+.header-tags:hover {
+    transform: translateY(-.6rem);
+}
+
 /* img */
 
 .me {
