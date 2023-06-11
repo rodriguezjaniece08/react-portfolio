@@ -47,3 +47,21 @@ input, textarea {
 .submit-arrow{
     color: var(--color-primary);
 }
+
+.success {
+    position: absolute;
+    display: none;
+    animation: buttons .3s linear;
+}
+
+@keyframes buttons {
+    0%{
+        transform: scale(0.1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(0.1);
+    }
+}

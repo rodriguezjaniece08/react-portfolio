@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import {FaArrowRight} from 'react-icons/fa'
 import emailjs from '@emailjs/browser';
 
@@ -7,6 +7,7 @@ import emailjs from '@emailjs/browser';
 
  const Form = () => {
   const form = useRef();
+  const [success, setSuccess] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,6 +23,8 @@ import emailjs from '@emailjs/browser';
       e.target.reset();
   };
 
+  
+
   return (
     <form ref={form} onSubmit={sendEmail}>
     <label>Name</label>
@@ -35,7 +38,8 @@ import emailjs from '@emailjs/browser';
     <textarea name="message" id='message' rows='10' cols='50' />
     </label>
 
-   <button className='btn'>Send <span className='submit-arrow'><FaArrowRight/></span></button>
+   <button className='btn' onClick={() => {setSuccess(!success)}}>Send <span className='submit-arrow'><FaArrowRight/></span></button>
+   <div className='success'>Your Message Successfully Sent!</div>
   </form>
   )
 }
