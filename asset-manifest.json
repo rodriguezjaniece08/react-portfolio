@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e8fd913.css",
-    "main.js": "/static/js/main.d807efff.js",
-    "static/media/projectImg4.png": "/static/media/projectImg4.c0fe88d3a6bfc3300bf7.png",
-    "static/media/imgplaceholder.png": "/static/media/imgplaceholder.0c2ec306c03f185b8b8d.png",
-    "static/media/projectImg2.png": "/static/media/projectImg2.42a1d56ff9027113a74b.png",
-    "static/media/projectImg1.png": "/static/media/projectImg1.77b46ba71604e902bd77.png",
-    "static/media/projectImg3.png": "/static/media/projectImg3.2904f672d9066576c9b4.png",
-    "static/media/resume.pdf": "/static/media/resume.feb231106e8e2f1dac29.pdf",
-    "index.html": "/index.html",
-    "main.0e8fd913.css.map": "/static/css/main.0e8fd913.css.map",
-    "main.d807efff.js.map": "/static/js/main.d807efff.js.map"
+    "main.css": "/react-portfolio/static/css/main.0e8fd913.css",
+    "main.js": "/react-portfolio/static/js/main.88f8e9eb.js",
+    "static/media/projectImg4.png": "/react-portfolio/static/media/projectImg4.c0fe88d3a6bfc3300bf7.png",
+    "static/media/imgplaceholder.png": "/react-portfolio/static/media/imgplaceholder.0c2ec306c03f185b8b8d.png",
+    "static/media/projectImg2.png": "/react-portfolio/static/media/projectImg2.42a1d56ff9027113a74b.png",
+    "static/media/projectImg1.png": "/react-portfolio/static/media/projectImg1.77b46ba71604e902bd77.png",
+    "static/media/projectImg3.png": "/react-portfolio/static/media/projectImg3.2904f672d9066576c9b4.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.feb231106e8e2f1dac29.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.0e8fd913.css.map": "/react-portfolio/static/css/main.0e8fd913.css.map",
+    "main.88f8e9eb.js.map": "/react-portfolio/static/js/main.88f8e9eb.js.map"
   },
   "entrypoints": [
     "static/css/main.0e8fd913.css",
-    "static/js/main.d807efff.js"
+    "static/js/main.88f8e9eb.js"
   ]
 }
