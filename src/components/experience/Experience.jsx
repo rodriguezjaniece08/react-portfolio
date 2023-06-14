@@ -8,6 +8,7 @@ const Experience = () => {
     <section id='experience'>
       <div className="grid-item item1">
         <h1>Experience</h1>
+        {/* icon logos for skills/tools */}
         <ExperienceSkills />
       </div>
       
