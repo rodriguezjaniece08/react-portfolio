@@ -20,6 +20,7 @@ const Contact = () => {
       
 
       <div className='contact-grid grid2'>
+        {/* form connected to email.js */}
         <Form/>
       </div>
     
